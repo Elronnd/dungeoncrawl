@@ -11,7 +11,7 @@ MAKEFILE = makefile.lnx
 OTHER=-j2
 
 all:
-	$(MAKE) $(OTHER) -f $(MAKEFILE) EXTRA_FLAGS='-O2 -fno-strength-reduce -std=c++14'
+	$(MAKE) $(OTHER) -f $(MAKEFILE) EXTRA_FLAGS='-g -fno-strength-reduce -std=c++14'
 
 noopt:
 	$(MAKE) $(OTHER) -f $(MAKEFILE)

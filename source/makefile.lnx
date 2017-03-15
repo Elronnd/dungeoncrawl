@@ -23,7 +23,7 @@ CFLAGS = -Wall -Wwrite-strings -Wstrict-prototypes \
 MCHMOD = 2755
 # INSTALLDIR = /usr/games
 INSTALLDIR = /opt/crawl/bin
-LIB = -lncurses
+LIB = -lncursesw
 
 # Include for Linux
 INCLUDES = -I/usr/include/ncurses
